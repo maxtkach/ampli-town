@@ -1,0 +1,139 @@
+body {
+
+  margin: 0; /* eliminates margin spacing on body so that the footer color is able to fill the window */
+
+  /* Sets the background for the entire page to a light yellow color */
+
+  background-color: #d081d4;
+
+  font-family: 'BiPs' /* Font from Google Fonts */
+
+}
+
+h1{
+  font-family: 'asinastra' /* Font from Google Fonts */
+}
+
+.snooze_category{
+  border: 3px solid #481361; /* Белая рамка */
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px; /* Радиус скругления */
+}
+
+/* begin header styling */
+
+.primary-header {
+
+  text-align: center; /* This will center the main heading and the main image */
+
+}
+
+.main-heading {
+
+  font-size: 70px;
+
+  color: #551f6e;
+
+}
+
+.town-preview {
+
+  width: 650px;
+  border: 10px solid #551f6e;
+  border-radius: 10px;
+
+}
+
+/* end header styling */
+
+/* begin main styling */
+
+.store-section {
+
+  display: flex; /* Makes the content witin this element flexible */
+
+  display: -webkit-flex; /* vendor prefix */
+
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+
+  width: 450px; /* approximate width of each section */
+
+  color: #551f6e;
+
+}
+
+.building {
+
+  width: 200px;
+  border: 10px solid #551f6e;
+  border-radius: 1000px;
+
+}
+
+.store-details { /* This is the div that contains the text */
+
+  margin-left: 30px;
+
+  color: #551f6e;
+
+}
+
+.category-heading {
+
+  font-size: 30px;
+
+  color: #551f6e;
+
+}
+
+.store-list {
+
+  padding-left: 15px;
+
+  color: #551f6e;
+
+}
+
+.store-name {
+
+  margin-bottom: 10px; /* adds a bit of space at the bottom of each list item */
+
+}
+
+.store-link {
+
+  color: #522c63;
+
+  font-size: 20px;
+
+  font-family: 'asinastra' /* Font from Google Fonts */
+
+}
+
+/* end main styling */
+
+/* begin footer styling */
+
+.primary-footer {
+
+  padding: 2px;
+
+  background-color: #490b5c;
+
+  text-align: center;
+
+}
+
+.created-by {
+
+  color: #000000;
+
+  font-size: 20px;
+
+}
+
+/* end footer styling */
+
+
+
